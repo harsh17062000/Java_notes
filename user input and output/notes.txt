@@ -1,0 +1,17 @@
+				Datatype:-
+
+char :- it follow the unicode character set and having a 2 byte space.
+boolean:- it follow only true and false because it tightly couple or upper bound or striket rule and regulation. 
+
+float :- 2.32f (if we not take f in decimal so it by default take bouble)  take 5 - 7 digit
+double :- 4.34533545664 14 - 15 digit.
+
+
+ => System.out.println(Integer.SIZE);   SIZE int bits (32 bits)
+ => System.out.println(Integer.BYTES);   SIZE int bytes(4 bytes)
+
+				wrapper class:-
+
+it is a class in which we make primative data type, behavior to perform as an object. to make a wrapper class 
+
+

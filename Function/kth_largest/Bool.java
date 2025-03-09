@@ -2,7 +2,7 @@ import java.util.Scanner;
 
  class Return {
 
-    static int largest() 
+    static Boolean largest() 
     {
         Scanner obj = new Scanner(System.in);
         System.out.println("enter the size of array");
@@ -30,10 +30,11 @@ import java.util.Scanner;
                 }
             }
         }
-        return arr[k-1];
+        System.out.println("kth term is : " + arr[k-1]);
+        return true;
 
     }
     public static void main(String[] args) {
-        System.out.println( "kth term is : " + largest());
+        largest();
     }
 }

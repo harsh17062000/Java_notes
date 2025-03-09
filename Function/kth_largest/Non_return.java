@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
- class Return {
+ class Non_Return {
 
-    static int largest() 
+    static void largest() 
     {
         Scanner obj = new Scanner(System.in);
         System.out.println("enter the size of array");
@@ -30,10 +30,10 @@ import java.util.Scanner;
                 }
             }
         }
-        return arr[k-1];
+        System.out.println(arr[k-1]);
 
     }
     public static void main(String[] args) {
-        System.out.println( "kth term is : " + largest());
+        largest();
     }
 }

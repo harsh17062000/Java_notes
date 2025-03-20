@@ -1,8 +1,11 @@
 class Two {
     class Three {
-        void display()
+        void display(int a, int b)
         {
             System.out.println("hello");
+            int c = a;
+            int d = b;
+            System.out.println(a + " " + b);
         }
     }
 }
@@ -14,6 +17,6 @@ public class Oops {
         
         Two  obj = new Two();
         Two.Three objThree = obj.new Three();
-        objThree.display(); 
+        objThree.display(10,20); 
     }
 }
